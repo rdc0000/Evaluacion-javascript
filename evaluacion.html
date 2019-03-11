@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/evaluacion.css">
+    <title>Evaluacion js</title>
+</head>
+<body>
+        <div id="Formulario">
+                <form id="formRegister">
+                    <h1>Formulario</h1>
+                    <p>
+                        <i class="fas fa-user-alt icon"></i><br>
+                        <input class="validar" type="text" placeholder="Escriba su usuario con minimos 2 caracteres, maximo 6 caracteres" id="name">
+                        <label for="name"><span class="obligatorio"></span></label>
+                    </p> 
+                    <p>
+                        <i class="fas fa-key icon"></i><br>
+                        <input class="validar" type="password" placeholder="Escriba su contraseña son minimo 8 caracteres y debe incluir letras en mayusculas" id="password">
+                        <label for="password"><span class="obligatorio"></span></label>
+                    </p> 
+                     <p>
+                        <i class="fas fa-envelope icon"></i><br>
+                        <input class="validar" type="email" placeholder="Escriba su correo correctamente" id="email">
+                        <label for="email"><span class="obligatorio"></span></label>
+                    <p>
+                        <i class="fas fa-palette icon"></i><br>
+                        <select name="color"  id="color">
+                            <option value="Seleccione">Seleccione un color</option>
+                            <option value="Amarillo">Amarillo</option>
+                            <option value="Rojo">Rojo</option>
+                            <option value="Azul">Azul</option>
+                        </select>
+                    </p>
+                    <p> <i class="fas fa-paw icon"></i>
+                        <p><input type="checkbox" name="mascota"  id="mascota"  value="mas"  checked="checked">Perro</p>
+                        <p><input type="checkbox" name="mascota"  id="mascota"  value="mas" >Gato</p>                     
+                        <p><input type="checkbox" name="mascota"  id="mascota"  value="mas" >Conejo</p>  
+                    </p>
+                    <p><i class="fas fa-money-bill-alt icon"></i>
+                        <p><input type="radio" name="efectivo" id="efec" value="vsat" checked="checked">Efectivo</p>
+                        <p><input type="radio" name="efectivo" id="efec" value="vsat">Credito</p><br>
+                    </p>
+                    <p><input type="checkbox" id="aceptar">Acepto términos y condiciones</p>
+                    <p>
+                        <label for="name"><span class="obligatorio"></span></label>
+                        <button type="submit"><i class="fas fa-save"></i> Enviar</button>
+                    </p> 
+                </form>
+        
+    <script src="js/evaluacion.js"></script>
+</body>
+</html>
